@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Cuestionario sobre Comida Rápida</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body bgcolor=#BFA2DE>
+<header>
+    <h1>¿Qué aprendiste sobre la Comida Rápida?</h1>
+</header>
+<main>
+<form action="mailto:tu_correo@gmail.com" method="post" enctype="text/plain">
+
+    <label>Nombre del alumno:</label><br>
+    <input type="text" name="Nombre" required><br><br>
+
+    <label>1. ¿Cuál es considerado el rey de los tacos en México?</label><br>
+    <input type="radio" name="P1" value="Pastor" required> Tacos al Pastor<br>
+    <input type="radio" name="P1" value="Veganos"> Tacos Veganos<br>
+    <input type="radio" name="P1" value="Hielo"> Tacos de Hielo<br><br>
+
+    <label>2. Menciona una cadena o marca famosa que venda hamburguesas o pizzas:</label><br>
+    <input type="text" name="P2" required><br><br>
+
+    <label>3. ¿La pizza original nació en Nápoles, Italia?</label><br>
+    <select name="P3" required>
+        <option value="">Selecciona</option>
+        <option>Sí</option>
+        <option>No</option>
+    </select><br><br>
+
+    <label>4. Menciona un ingrediente obligatorio para un buen taco (ej. cebolla, salsa...):</label><br>
+    <input type="text" name="P4"><br><br>
+
+    <label>5. ¿Qué opinas del impacto cultural de la comida rápida en el mundo?</label><br>
+    <textarea name="P5" rows="4"></textarea><br><br>
+
+    <input type="submit" value="Enviar examen">
+
+</form>
+</main>
+<footer>
+    <a href="contenido.html" target="_top">Inicio</a>
+</footer>
+
+</body>
+</html>
